@@ -24,3 +24,7 @@ RUN pip install Theano
 
 # Install Keras
 RUN pip install keras
+
+# Select Theano as Keras backend
+RUN mkdir ~/.keras
+COPY ./keras.json ~/.keras/

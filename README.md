@@ -8,7 +8,7 @@ It includes as well the latest version of *pip*, the libraries *numpy*, *scipy*,
 ## Installation on MacOS/Linux
 
 Clone the repository into the desired folder, cd to it and run:
-	$ sudo docker build -t keras .
+	$ docker build --tag=keras .
 
 Then annotate the IMAGE ID returned by
 	$ docker images
